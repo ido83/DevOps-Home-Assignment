@@ -8,6 +8,8 @@ This repository contains a home assignment code for DevOps Engineer.
 0. Fork this repo - use https or ssh we do'nt care :).
 1. Create a deployable docker image for the application and publish it to docker-hub.
     - Feel free to use docker multi-stage layer.
+    - Don't use ROOT user
+    - Don't inject UID or GID
     - Feel free to add .dockerignore file before publish the docker image :)
     - Feel free to switch up technologies.  For Example: chose other docker runtime ( CRI-O and etc..)
 2. Create a Kubernetes deployment and service for the application.

@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hello_geek():
+def hello_devops():
     return '<h1>Hello DevOps</h1>'
 
 
